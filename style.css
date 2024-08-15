@@ -1,0 +1,280 @@
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    background-color: #000000;
+    font-size: 1.4rem;
+}
+.contentPT{
+    height: 100vh;
+    display: block;
+
+}
+.contentUS{
+    display: none;
+}
+.pcDecoration {
+    width: 300px;
+    height: 250px;
+    /* margin-bottom: 10rem; */
+    margin: 0 25rem;
+    
+}
+
+.title{
+    width: 100%;
+    height: 30rem;
+
+}
+.boxToggle {
+    width: 46px;
+    height: 23px;
+    float: right;
+    padding: 5px;
+}
+
+.toggle {
+    background: white;
+    width: 45px;
+    height: 25px;
+    border-radius: 999px;
+    border: none;
+    padding: 2px 2px;
+
+
+}
+
+.toggle.active .toggleCircle {
+    left: 19px;
+
+
+}
+
+.toggleCircle {
+    background: #1E1E1E;
+    width: 22px;
+    height: 22px;
+    border-radius: 999px;
+    position: relative;
+
+
+
+}
+
+.language {
+    color: #FFF;
+    font-family: "Advent Pro";
+    margin: 0 auto;
+
+
+}
+.menu{
+    display: flex;
+    width: 90vw;
+    height: 100vh;
+    /* margin: 15rem 20rem; */
+
+}
+.personalInformations h1 {
+    margin-bottom: 0;
+    color: #ffffff;
+    font-family: "Advent Pro";
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.personalInformations h2 {
+    color: #FFF;
+    font-family: "Advent Pro";
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    margin-top: 0;
+}
+
+
+
+.about {
+    color: #FFF;
+    font-family: "Advent Pro";
+    font-size: 2.7rem;
+    font-style: normal;
+    font-weight: 100;
+    padding-left: 25rem;
+    padding-right: 5rem;
+    line-height: normal;
+    height: 100vh;
+}
+.about h1{
+    font-size: 6rem;
+
+}
+.personalTastes{
+    color: #FFF;
+    font-family: "Advent Pro";
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 100;
+    padding-left: 5rem;
+    line-height: normal;
+    height: 100vh;
+}
+.personalTastes h1{
+    font-size: 6rem;
+    padding-left: 41rem;
+}
+
+.experience hr{
+    border: solid 1px white;
+    width: .3px;
+    height: 20rem;
+}
+.textExperience{
+    padding-top: 5px;
+    width: 33rem;
+}
+.textExperience h2{
+    margin: 7px 0;
+    font-size:2.5rem;
+    font-weight: 300;
+    float: right;
+
+}
+.textExperience h3{
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0;
+    float: right;
+}
+.textExperience p{
+    padding-top: 30px;
+    font-size: 2rem;
+    float: right;
+
+}
+.textExperience2{
+    padding-top: 35px;
+}
+.textExperience2 h2{
+    margin: 7px 0;
+    font-size:2.5rem;
+    font-weight: 300;
+}
+.textExperience2 h3{
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0;
+    float: right;
+}
+.textExperience2 p{
+    padding-top: 30px;
+    font-size: 2rem;
+}
+
+.experience{
+    height: 100vh;
+    padding-left: 37rem;
+    display: grid;
+    grid-template-columns: 100px 100px ;
+}
+.boll{
+
+    margin: 0 auto;
+    background-color: #FFF;
+    width: 20px;
+    height: 20px;
+    border-radius: 999px;
+
+}
+.boll2{
+
+    margin: 0 auto;
+    margin-top: 15rem;
+    background-color: #FFF;
+    width: 20px;
+    height: 20px;
+    border-radius: 999px;
+
+}
+
+.portifolio{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.prototype{
+    display: grid;
+    grid-template-columns: 600px 600px;
+
+}
+.portifolio h2{
+    justify-content: center;
+}
+.bloco{
+    border: solid 1px #FFF;
+    margin: 10px 10px ;
+    height: 400px;
+}
+
+@media (max-width:1405px){
+    html{
+        font-size:60%;
+    }
+    .pcDecoration {
+        width: 280px;
+        height: 230px;
+        margin: 0 10rem;
+
+    }
+    .conteudo{
+        padding-top: 40rem;
+    }
+    .personalInformations{
+        padding-left: 11rem;
+    }
+    .language{
+        font-size:14px;
+    }
+}
+@media (max-width:908px){
+    html{
+        font-size:45%;
+    }
+    .conteudo{
+        height: 100vh;
+        width: 80%;
+        margin: 0 10px;
+    }
+    .pcDecoration {
+        width: 200px;
+        height: 150px;
+
+    }
+    .personalInformations {
+        padding-left: 35px;
+    }
+    .language{
+        font-size:14px;
+    }
+}
+
+@media (max-width:759px){
+    html{
+        font-size:35%;
+    }
+    .conteudo{
+        padding-top: 50%;
+    }
+    .personalInformations h2 {
+        padding-left: 13px;
+    }
+    .language{
+        font-size:14px;
+    }
+}
