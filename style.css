@@ -204,24 +204,31 @@ body {
 }
 
 .portifolio{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
+    padding-bottom: 250px;
 }
 .prototype{
+    height: 100vh;
+    justify-content: center;
     display: grid;
     grid-template-columns: 600px 600px;
 
 }
 .portifolio h2{
-    justify-content: center;
+    text-align: center;
 }
 .bloco{
     border: solid 1px #FFF;
     margin: 10px 10px ;
     height: 400px;
 }
-
+.rodape{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+}
+.rodape img{
+    text-align: end;
+}
 @media (max-width:1405px){
     html{
         font-size:60%;
