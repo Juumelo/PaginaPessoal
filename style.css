@@ -133,7 +133,7 @@ body {
 .experience hr{
     border: solid 1px white;
     width: .3px;
-    height: 20rem;
+    height: 30rem;
 }
 .textExperience{
     padding-top: 5px;
@@ -143,23 +143,22 @@ body {
     margin: 7px 0;
     font-size:2.5rem;
     font-weight: 300;
-    float: right;
+
 
 }
 .textExperience h3{
     font-size: 2rem;
     font-weight: 300;
     margin: 0;
-    float: right;
+
 }
 .textExperience p{
     padding-top: 30px;
     font-size: 2rem;
-    float: right;
 
 }
 .textExperience2{
-    padding-top: 35px;
+    padding-top: 2vh;
 }
 .textExperience2 h2{
     margin: 7px 0;
@@ -170,10 +169,10 @@ body {
     font-size: 2rem;
     font-weight: 300;
     margin: 0;
-    float: right;
+
 }
 .textExperience2 p{
-    padding-top: 30px;
+    padding-top: 20px;
     font-size: 2rem;
 }
 
@@ -195,7 +194,7 @@ body {
 .boll2{
 
     margin: 0 auto;
-    margin-top: 15rem;
+    margin-top: 23rem;
     background-color: #FFF;
     width: 20px;
     height: 20px;
@@ -210,11 +209,8 @@ body {
     grid-template-columns: 600px 600px;
 
 }
-.portifolio{
-    /* height: 100vh; */
 
-}
-.portifolio h2{
+.portfolio h2{
     text-align: center;
 }
 .bloco{
@@ -223,13 +219,15 @@ body {
     height: 500px;
 }
 .rodape{
+    margin-top: 25vh;
+    display: flex;
+    justify-content: center;
 
-    display: grid;
-    grid-template-columns: 300px 300px 750px;
-    margin-top: 90px;
-    float:inline-end;
+
 }
-
+.rodape img{
+    margin-left: 40px;
+}
 
 @media (max-width:1405px){
     html{
