@@ -203,14 +203,15 @@ body {
 
 }
 
-.portifolio{
-    padding-bottom: 250px;
-}
 .prototype{
     height: 100vh;
     justify-content: center;
     display: grid;
     grid-template-columns: 600px 600px;
+
+}
+.portifolio{
+    /* height: 100vh; */
 
 }
 .portifolio h2{
@@ -219,16 +220,17 @@ body {
 .bloco{
     border: solid 1px #FFF;
     margin: 10px 10px ;
-    height: 400px;
+    height: 500px;
 }
 .rodape{
-    height: 100vh;
+
     display: grid;
-    grid-template-columns: 500px 500px 500px;
+    grid-template-columns: 300px 300px 750px;
+    margin-top: 90px;
+    float:inline-end;
 }
-.rodape img{
-    text-align: end;
-}
+
+
 @media (max-width:1405px){
     html{
         font-size:60%;
